@@ -1,0 +1,19 @@
+
+
+---------------------Configurando Git-------------------------------------------
+git init
+git log
+git status
+git add .
+git commit -m "Initial configurations"
+
+git branch -M main
+git remote add origin https://github.com/joaopaulordev/nextjs-board.git
+git push -u origin main
+git push -f origin main
+git pull origin main
+---------
+git remote -v
+git remote
+git remote rm origin
+git fetch origin main
