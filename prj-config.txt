@@ -4,6 +4,10 @@ pnpm run db:seed
 pnpm i tsx -D
 pnpm i dotenv -D
 
+pnpm add lucide-react
+pnpm add tailwind-merge
+pnpm add nuqs
+
 -------------------Dockerfile - Docker-compose ---------------------------------
 docker-compose up --build
 docker-compose up --build --force-recreate
