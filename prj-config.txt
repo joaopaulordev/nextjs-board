@@ -7,6 +7,8 @@ pnpm i dotenv -D
 pnpm add lucide-react
 pnpm add tailwind-merge
 pnpm add nuqs
+pnpm add tailwind-scrollbar
+pnpm add date-fns
 
 -------------------Dockerfile - Docker-compose ---------------------------------
 docker-compose up --build
