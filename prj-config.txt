@@ -10,6 +10,15 @@ pnpm add nuqs
 pnpm add tailwind-scrollbar
 pnpm add date-fns
 
+pnpm add @tanstack/react-query
+
+pnpm add server-only
+pnpm add react-hook-form 
+pnpm add @hookform/resolvers
+
+pnpm i @radix-ui/react-dialog
+ 
+
 -------------------Dockerfile - Docker-compose ---------------------------------
 docker-compose up --build
 docker-compose up --build --force-recreate

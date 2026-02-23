@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { SearchInput } from "./search-input";
 import { UserButton } from "@/components/header/user-button";
 
@@ -13,7 +14,10 @@ export function Header() {
       </div>
 
       <div className="flex items-center gap-4">
-        <SearchInput />
+        <Suspense>
+          <SearchInput />
+        </Suspense>
+        
 
         <UserButton />
       </div>
